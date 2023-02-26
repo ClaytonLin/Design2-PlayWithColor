@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Define some basic styles for the div */
+    #myDiv {
+      width: 100px;
+      height: 100px;
+      background-color: blue;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="myDiv"></div>
+
+  <script>
+    // Get a reference to the div element
+    var div = document.getElementById("myDiv");
+
+    // Add an event listener to the document to listen for the "keydown" event
+    document.addEventListener("keydown", function(event) {
+      // Check if the "ArrowRight" key was pressed
+      if (event.code === "ArrowRight") {
+        // Move the div 10 pixels to the right
+        div.style.left = parseInt(div.style.left) + 10 + "px";
+      }
+    });
+  </script>
+
+</body>
+</html>
