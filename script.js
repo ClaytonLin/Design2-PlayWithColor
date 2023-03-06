@@ -99,6 +99,7 @@ document.addEventListener("keydown", function(event) {
     verticalLine3.style.bottom = "400px"
     verticalLine5.style.animation = "verticalLineAnimationQ 3.5s linear infinite";
     animationQ.style.opacity = "0"
+    animationG.style.opacity = "0%"
     animationE.style.opacity = "0"
   }
   else if (event.key.toUpperCase() === "E"){
@@ -106,6 +107,7 @@ document.addEventListener("keydown", function(event) {
     verticalLine5.style.animation = "verticalLineAnimationQ 0.25s linear infinite;"
     animationE.style.opacity = "100"
     animationQ.style.opacity = "0"
+    animationG.style.opacity = "0%"
     triangleUp.style.opacity = "0%"
   }
   else if (event.key.toUpperCase() === "A"){
@@ -119,6 +121,7 @@ document.addEventListener("keydown", function(event) {
     animationS3.style.opacity = "0"
     verticalLine2.style.animation = "verticalLineAnimationA 3s linear infinite";
     verticalLine4.style.animation = "verticalLineAnimationA 2.5s linear infinite";
+    animationG.style.opacity = "0%"
   }
   else if (event.key.toUpperCase() === "S"){
     animationS1.style.opacity = "100"
@@ -127,6 +130,7 @@ document.addEventListener("keydown", function(event) {
     triangleUp.style.opacity = "0%"
     verticalLine1.style.animation = "verticalLineAnimationQ 3s linear infinite";
     verticalLine5.style.animation = "verticalLineAnimationQ 2.5s linear infinite";
+    animationG.style.opacity = "0%"
   }
   else if (event.key.toUpperCase() === "D"){
     animationS1.style.opacity = "0"
@@ -143,6 +147,7 @@ document.addEventListener("keydown", function(event) {
     animationS2.style.left = "500px"
     animationS2.style.top = "500px"
     animationF.style.opacity = "0%"
+    animationG.style.opacity = "0%"
   }
 
   else if (event.key.toUpperCase() === "G"){
