@@ -133,6 +133,7 @@ document.addEventListener("keydown", function(event) {
     animationS2.style.opacity = "0"
     animationS3.style.opacity = "0"
     triangleUp.style.opacity = "100%"
+    verticalLine1.style.animation = "verticalLineAnimationQ 4.5s linear infinite";
   }
   else if (event.key.toUpperCase() === "R"){
     triangleUp.style.opacity = "0"
@@ -147,7 +148,7 @@ document.addEventListener("keydown", function(event) {
   else if (event.key.toUpperCase() === "G"){
     animationG.style.opacity = "100%"
     animationG2.style.opacity = "100%"
-
+    verticalLine3.style.animation = "verticalLineAnimationA 2.5s linear infinite";
   }
 
   else if (event.key.toUpperCase() === "F"){
