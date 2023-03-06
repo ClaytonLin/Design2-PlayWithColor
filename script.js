@@ -141,6 +141,7 @@ document.addEventListener("keydown", function(event) {
     animationS3.style.opacity = "0"
     animationS2.style.left = "500px"
     animationS2.style.top = "500px"
+    animationF.style.opacity = "0%"
   }
 
   else if (event.key.toUpperCase() === "G"){
@@ -149,8 +150,8 @@ document.addEventListener("keydown", function(event) {
 
   }
 
-  else if (event.key.toUpperCase() === "T"){
-    animationY.style.opacity = "100%"
+  else if (event.key.toUpperCase() === "F"){
+    animationF.style.opacity = "100%"
   }
 
   
